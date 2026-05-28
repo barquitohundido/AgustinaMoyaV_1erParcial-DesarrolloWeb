@@ -1,18 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>UI desarrollo web</title>
 </head>
 <body>
+    <header>
+        <a href="img/logo.png" width="10" alt="Logo"></a>
+        <h5>Character Counter</h5>
+        <button class="color-theme"><img src="img/themewhite.png" alt="Change theme"></button>
+    </header>
     <main>
-        <header>
-            <a href="http://placeholder.co" width="10" alt="Logo"></a>
-            <h3>Character Counter</h3>
-            <button><img src="" alt="Increase size"></button>
-            <button class="color-theme"><img src="img/themewhite.png" alt="Change theme"></button>
-        </header>
+        <section class="hero">
+            <h1>Analyze your text in real-time</h1>
+            <textarea placeholder="Ingresá tu texto..."></textarea>
+            <div class="text-below">
+                <h5></h5><input type="checkbox">Exclude spaces</h5>
+                <h5></h5><input type="checkbox">Set Character Limit</h5>
+                <h5 class="1minute">Aprox reading time: >1 minute. </h5>
+            </div>
+        </section>
+        <section class="container-imgs">
+            <div class="container-img1">
+                <img src="img\container-img1.png">
+                <h3>478</h3>
+                <p>Total Character</p>
+            </div>
+            <div class="container-img2">
+                <img src="img\container-img2.png">
+                <h3>39</h3>
+                <p>World Count</p>
+            </div>
+            <div class="container-img3">
+                <img src="img\container-img3.png">
+                <h3>04</h3>
+                <p>Sentence Count</p>
+            </div>
+        </section>
     </main>
 </body>
 </html>
