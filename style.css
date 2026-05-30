@@ -7,6 +7,8 @@ body{
     font-family: montserrat, sans-serif;
     color:#F2F2F7;
     background-color: #12131A;
+    width: 600px;
+    height: 100vh;
 }
 nav{
     display: flex;
@@ -32,4 +34,56 @@ nav{
 .img-button{
     height: 15px;
     align-items: center;
+}
+.hero-text{
+    height: 100%;
+}
+textarea{
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(242, 242, 247, 0.1);
+    color: whitesmoke;
+    height: 50px;
+    width: 100%;
+    height: 100px;
+}
+.hero-input{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.container-imgs{
+    display: flex;
+    border-radius: 40px;
+    gap: 20px;
+    width: 600px;
+}
+.imgs{
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+}
+.number-img{
+    display: flex;
+    font-size: 40px;
+    color: #F2F2F7;
+}
+.progress-letter{
+    justify-content: end;
+    padding-bottom: 10px;
+}
+progress{
+    width: 100%;
+}
+progress h6{
+    display: flex;
+    justify-content: space-between;
+}
+.progress-letter h2{
+    padding: 10px;
+}
+ .letters {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
 }
